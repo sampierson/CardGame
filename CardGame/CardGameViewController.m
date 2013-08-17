@@ -7,6 +7,8 @@
 //
 
 #import "CardGameViewController.h"
+#import "PlayingCardDeck.h"
+#import "PlayingCard.h"
 
 @interface CardGameViewController ()
 
@@ -26,8 +28,13 @@
 
 - (IBAction)flipCard:(UIButton *)sender
 {
+  if (!sender.isSelected) {
+    PlayingCardDeck *deck = [[PlayingCardDeck alloc] init];
+    PlayingCard *card = (PlayingCard *)[deck drawRandomCard];
+    [sender setTitle:[card contents] forState:UIControlStateSelected];
+    self.flipCount++;
+  }
   sender.selected = !sender.isSelected;
-  self.flipCount++;
 }
 
 @end
