@@ -23,6 +23,7 @@
 		225EAA4A17C0105E00876CB4 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 225EAA4917C0105E00876CB4 /* Deck.m */; };
 		225EAA5017C0112900876CB4 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 225EAA4F17C0112900876CB4 /* PlayingCardDeck.m */; };
 		225EAA5317C03F5F00876CB4 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 225EAA5217C03F5F00876CB4 /* CardMatchingGame.m */; };
+		225EAA5517C062B000876CB4 /* playingCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225EAA5417C062B000876CB4 /* playingCard.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		225EAA4F17C0112900876CB4 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
 		225EAA5117C03F5F00876CB4 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
 		225EAA5217C03F5F00876CB4 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
+		225EAA5417C062B000876CB4 /* playingCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playingCard.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		225EAA2517C00ACD00876CB4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				225EAA5417C062B000876CB4 /* playingCard.jpg */,
 				225EAA2D17C00ACD00876CB4 /* CardGameAppDelegate.h */,
 				225EAA2E17C00ACD00876CB4 /* CardGameAppDelegate.m */,
 				225EAA2617C00ACD00876CB4 /* CardGame-Info.plist */,
@@ -197,6 +200,7 @@
 				225EAA3317C00ACD00876CB4 /* Default@2x.png in Resources */,
 				225EAA3517C00ACD00876CB4 /* Default-568h@2x.png in Resources */,
 				225EAA3817C00ACD00876CB4 /* MainStoryboard.storyboard in Resources */,
+				225EAA5517C062B000876CB4 /* playingCard.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
